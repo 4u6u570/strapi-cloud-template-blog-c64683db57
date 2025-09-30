@@ -1,0 +1,33 @@
+{
+  "collectionName": "certifications",
+  "info": {
+    "singularName": "certification",
+    "pluralName": "certifications",
+    "displayName": "Certifications",
+    "description": "Certificados, cursos o formaciones obtenidas"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "institution": {
+      "type": "string"
+    },
+    "issuedDate": {
+      "type": "date"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}
